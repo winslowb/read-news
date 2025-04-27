@@ -31,11 +31,10 @@ newspaper3k
 GitHub CLI (gh) if you want to work with GitHub directly
 
 Install Python libraries:
+~~~
+pip install -r requirements 
+~~~
 
-bash
-Copy
-Edit
-pip install feedparser newspaper3k
 📄 Usage
 Clone the repo:
 
