@@ -35,7 +35,6 @@ https://feeds.a.dj.com/rss/RSSWSJD.xml
 https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
 https://www.theverge.com/rss/index.xml
 Run the script:
-~~~
 
 ~~~
 python3 read-news.py
