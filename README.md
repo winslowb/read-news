@@ -1,52 +1,103 @@
 
-📖 read-news
-Terminal-based RSS reader and article fetcher, built with Python!
+# Term-News
 
-This tool allows you to:
-- Load and display articles from your favorite RSS feeds
-- Select an article to fetch and read the full text
-- Fetch articles using a real browser User-Agent to bypass basic anti-scraping blocks
+**Term-News** is a fast, colorful, highly-readable newsreader that runs inside your terminal. 
+It pulls full articles from your favorite RSS/Atom feeds and formats them beautifully using the Gruvbox color scheme.
 
-🚀 Features
-- Read RSS feed URLs from a feeds.txt file
+Read, save, or re-read articles **without ever leaving your terminal**. 🚀
 
-- List all recent articles across multiple sources
-- Download and parse full article content
-- Simple terminal UI with numbered selections
-- Automatically uses a realistic Chrome User-Agent
+---
 
-Install Python libraries:
-~~~
+## Features
+
+- 📚 **Read full articles directly inside your terminal** (no opening browsers)
+- 🎨 **Gruvbox theme** for beautiful, clear formatting
+- 🗂️ **Group articles by feed source** (ex: NPR, Ars Technica, etc.)
+- ⏳ **Estimated reading time** displayed after title (ex: "(4 min read)")
+- 💬 **Configurable paragraph spacing** (single or double)
+- 🎡 **Animated spinners** while articles download (random or fixed)
+- 🏷️ **Save articles for later** reading
+- 🔄 **Re-read past articles** anytime
+- 🧹 **Automatic tracking** of read and saved articles
+- ⚙️ **Simple config file (`config.txt`)** for easy tweaks
+
+---
+
+## Installation
+
+1. Clone this repo:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/term-news.git
+cd term-news
+```
+
+2. Install dependencies:
+
+```bash
 pip install -r requirements.txt
-~~~
+```
 
-📄 Usage
-Clone the repo:
+3. Create your `feeds.txt`:
 
-~~~
-git clone https://github.com/YOUR_USERNAME/read-news.git
-cd read-news
-Add your favorite RSS feed URLs into feeds.txt (one per line).
-~~~
+Add RSS/Atom feed URLs (one per line):
 
-Example feeds.txt:
-~~~
-https://feeds.a.dj.com/rss/RSSWSJD.xml
-https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+```
+https://feeds.arstechnica.com/arstechnica/index
+https://feeds.npr.org/1001/rss.xml
 https://www.theverge.com/rss/index.xml
-Run the script:
+```
 
-~~~
-python3 read-news.py
-Select an article number to read the full content.
-~~~
+4. (Optional) Create a `config.txt` to customize behavior:
 
-⚠️ Notes
-Some subscription-based sites (like WSJ) may still block access despite using a browser User-Agent.
+Example:
+```
+spacing=single
+spinner=earth
+```
 
-If fetching fails, you’ll see an error message.
+---
 
-📬 Contributions
-PRs, ideas, and issues are welcome!
-Feel free to fork and customize the project for your own needs.
+## Usage
 
+Simply run:
+
+```bash
+python term-news.py
+```
+
+You'll see a menu:
+
+```
+Choose an option:
+1. Read New Articles
+2. Read Saved Articles
+3. Re-Read Past Articles
+4. Exit
+```
+
+Pick an article to read, save it for later, or re-read ones you've already enjoyed.
+
+---
+
+
+## Roadmap / Planned Features
+
+- 🔍 Search articles by keyword
+- 📦 Package as installable CLI app (`pip install term-news`)
+- 🌟 Support alternate color themes (Solarized, Dracula)
+- 📚 Auto-fetch full archives
+
+---
+
+## License
+
+MIT License.
+
+---
+
+Built with ❤️ and coffee for people who love reading *real news* right inside the terminal.
+
+---
+
+> Feel free to fork, star, and contribute!
