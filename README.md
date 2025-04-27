@@ -39,28 +39,26 @@ pip install feedparser newspaper3k
 📄 Usage
 Clone the repo:
 
-bash
+~~~
 Copy
 Edit
 git clone https://github.com/YOUR_USERNAME/read-news.git
 cd read-news
 Add your favorite RSS feed URLs into feeds.txt (one per line).
+~~~
 
 Example feeds.txt:
-
-pgsql
-Copy
-Edit
+~~~
 https://feeds.a.dj.com/rss/RSSWSJD.xml
 https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
 https://www.theverge.com/rss/index.xml
 Run the script:
+~~~
 
-bash
-Copy
-Edit
+~~~
 python3 read-news.py
 Select an article number to read the full content.
+~~~
 
 ⚠️ Notes
 Some subscription-based sites (like WSJ) may still block access despite using a browser User-Agent.
