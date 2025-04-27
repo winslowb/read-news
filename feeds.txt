@@ -1,0 +1,5 @@
+https://feeds.arstechnica.com/arstechnica/index
+https://hnrss.org/frontpage
+https://feeds.npr.org/1001/rss.xml
+https://techcrunch.com/feed/
+https://www.theverge.com/rss/index.xml
