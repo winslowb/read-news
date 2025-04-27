@@ -3,32 +3,17 @@
 Terminal-based RSS reader and article fetcher, built with Python!
 
 This tool allows you to:
-
-Load and display articles from your favorite RSS feeds
-
-Select an article to fetch and read the full text
-
-Fetch articles using a real browser User-Agent to bypass basic anti-scraping blocks
+- Load and display articles from your favorite RSS feeds
+- Select an article to fetch and read the full text
+- Fetch articles using a real browser User-Agent to bypass basic anti-scraping blocks
 
 🚀 Features
-Read RSS feed URLs from a feeds.txt file
+- Read RSS feed URLs from a feeds.txt file
 
-List all recent articles across multiple sources
-
-Download and parse full article content
-
-Simple terminal UI with numbered selections
-
-Automatically uses a realistic Chrome User-Agent
-
-🛠 Requirements
-Python 3.8+
-
-feedparser
-
-newspaper3k
-
-GitHub CLI (gh) if you want to work with GitHub directly
+- List all recent articles across multiple sources
+- Download and parse full article content
+- Simple terminal UI with numbered selections
+- Automatically uses a realistic Chrome User-Agent
 
 Install Python libraries:
 ~~~
