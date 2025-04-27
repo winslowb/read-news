@@ -17,15 +17,13 @@ This tool allows you to:
 
 Install Python libraries:
 ~~~
-pip install -r requirements 
+pip install -r requirements.txt
 ~~~
 
 📄 Usage
 Clone the repo:
 
 ~~~
-Copy
-Edit
 git clone https://github.com/YOUR_USERNAME/read-news.git
 cd read-news
 Add your favorite RSS feed URLs into feeds.txt (one per line).
