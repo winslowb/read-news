@@ -1,3 +1,30 @@
 saved_articles.txt
 read_articles.txt
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Vim/Neovim swap files
+*.sw?
+
+# Temp files from this app
+tmp.txt
+temp-article-*.txt
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
 
